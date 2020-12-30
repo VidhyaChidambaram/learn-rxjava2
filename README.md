@@ -48,6 +48,20 @@ the final implementation will be blocking or non-blocking.
 * V2: Non-Blocking asynchronous approach
 
 
+## Mini - Project : TodoEndpoint
+
+* Demonstrates basic reactive knowledge using observable operations 
+and ability to display call back output to the user.
+
+- Simple [Todo Model](reactive-example/src/main/java/com/cvidhyac/reactive/entities/Todo.java) with 
+3 fields title, description as required fields and rest optional.
+- Use RxJava2, with reactiveJ.
+- Two POJO classes, one for request - [TodoRequest](reactive-example/src/main/java/com/cvidhyac/reactive/entities/TodoRequest.java), 
+and one for response - [TodoResponse](reactive-example/src/main/java/com/cvidhyac/reactive/entities/TodoResponse.java)
+
+* Blocking (Java 8) implementation - [TodoV1Endpoint](reactive-example/src/main/java/com/cvidhyac/reactive/TodoV1Endpoints.java)
+* Non-blocking (Reactive) implementation - [TodoV2Endpoint](reactive-example/src/main/java/com/cvidhyac/reactive/TodoV2Endpoints.java)
+
 
 
 
